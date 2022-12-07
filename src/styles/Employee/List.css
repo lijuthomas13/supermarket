@@ -1,0 +1,71 @@
+#parent_emp{
+    display: flex;
+    flex-direction: row;
+    background-color: #E5EAFF;
+    height: 100%;
+    padding-right: 10px;
+    width: 990px;
+   }
+   #left-emp{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    
+   }
+   #left-emp-top{
+    flex:25%;
+    width: 100%;
+    padding-top: 20px;
+   }
+   #left-emp-bottom{
+    flex:75%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   }
+   #left-emp-bottom-left{
+        flex: 50%;
+        text-align: left;
+        padding-left: 40px;
+        color: #787BA8;
+        font-family: 'Poppins';
+        font-size: larger;
+
+        
+   }
+   #left-emp-bottom-right{
+    flex: 50%;
+    text-align: left;
+    color: #787BA8;
+    font-family: 'Poppins';
+    
+
+}
+   #right-emp{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    
+   }
+   #right-emp-top{
+    flex: 50%;
+    
+   }
+   #right-emp-bottom{
+    flex: 50%;
+    margin-top: 10px;
+   }
+
+   #button_div{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+   }
+   #but_verify,
+   #but_adhar{
+    font-family: 'Poppins';
+    width: 218px;
+    
+    
+   }
