@@ -1,9 +1,10 @@
-import React from 'react'
+import React ,{useState,useEffect} from 'react'
+import axios from 'axios';
 import '../styles/Employees.css';
 import Emp_status from './Emp-comp/Emp_status';
 import List from './Emp-comp/List';
 import Search from './Emp-comp/Search';
-import Payroll from './Payroll';
+import Payroll from './Table';
 function Employees() {
   
   return (
@@ -16,8 +17,8 @@ function Employees() {
       <div class='row mt-3'>
       
           {/* <Search/> */}
-        {/* <Payroll/> */}
-        <List/>
+        <Payroll />
+        {/* <List/> */}
         
       </div>
       

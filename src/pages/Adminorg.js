@@ -3,7 +3,7 @@ import '../styles/Adminorg.css';
 import { FaUserCircle } from 'react-icons/fa';
 import { MdOutlineDashboard } from 'react-icons/md';
 import {HiUserGroup} from 'react-icons/hi';
-
+import Avatar from '@mui/material/Avatar';
 import Dashbord from '../components/Dashbord';
 import Employees from '../components/Employees';
 import {Sidebar_data} from '../helpers/Sidebar_data.js' 
@@ -38,8 +38,8 @@ function Adminorg() {
                     <div id='user-info'>
                         <div id='user-img'>
 
-                        
-                            <FaUserCircle id='img'/>
+                             <Avatar id='img' sx={{ bgcolor: '#E5EAFF',color:' #010322' }}>{employee.FirstName.charAt(0)}</Avatar>
+                            {/* <FaUserCircle id='img'/> */}
                         </div>
                         <div id='user-details'>
                             <h4>{employee.FirstName} {employee.LastName}</h4>

@@ -1,3 +1,4 @@
+import { List } from '@mui/material';
 import React from 'react';
 import { useNavigate } from "react-router-dom";
 
@@ -14,8 +15,9 @@ function Logout() {
     <div>
         <h1>do u want to logout?</h1>
         <button onClick={yes}>yes</button>
-        
+        <List/>
     </div>
+    
   )
 }
 

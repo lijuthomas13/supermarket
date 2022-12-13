@@ -40,10 +40,10 @@ function WorkingFormat(props) {
   }
 
   return (
-    <PieChart width={400} height={400}>
+    <PieChart width={600} height={300}>
     <Pie
       data={data}
-      cx={200}
+      cx={230}
       cy={140}
       innerRadius={90}
       outerRadius={100}

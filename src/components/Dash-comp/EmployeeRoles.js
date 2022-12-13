@@ -41,7 +41,7 @@ function EmployeeRoles(props) {
     <PieChart width={1000} height={400}>
     <Pie
       data={data}
-      cx={200}
+      cx={250}
       cy={140}
       innerRadius={60}
       outerRadius={100}

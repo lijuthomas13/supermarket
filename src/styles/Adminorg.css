@@ -5,12 +5,15 @@
 }
 #left{
     flex: 20%;
+    position:fixed;
+    height: 100vh;
     
 }
 #right{
     flex: 80%;
     background-color: #E5EAFF;
     height: 100%;
+    margin-left: 19%;
 }
 
 #outer-div-parent{
@@ -50,7 +53,9 @@
 #img{
     height: 55px;
     width: 55px;
-    color: white;
+    margin-left: 8px;
+    font-size: 30px;
+    color:  #010322;
     position: relative;
     top: 12px;
 }

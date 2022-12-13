@@ -9,7 +9,7 @@ function Emp_status(props) {
       axios.get('http://192.168.2.74/employee/all').then((response) => {
           setPost(response.data);
       });
-  }, []);
+  }, [post]);
 
     const verified_count = post.filter(obj => {
         if (obj.isVerified ===true) {
@@ -35,7 +35,7 @@ function Emp_status(props) {
         
       ];
 
-    const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
+    const COLORS = ["#379237", "red"];
     let renderLabel = function(entry) {
         return entry.name + entry.value/100;
       }

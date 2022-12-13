@@ -8,6 +8,7 @@ import { MDBCol } from "mdbreact";
 import DateRangePicker from '@wojtekmaj/react-daterange-picker/dist/entry.nostyle';
 import Emp_details from './Emp_details';
 import {Link} from 'react-router-dom';
+import Payroll from '../Table';
 
 function Search() {
 
@@ -27,9 +28,9 @@ function Search() {
 
   return (
     <div class='container'>
-        <div class='row mt-3'>
-            <div class='card' id='emp-row-2'>
-            <div class='container'>
+      <div class='row mt-3'>
+        <div class='card' id='emp-row-2'>
+          <div class='container'>
             <div class='row'>
               <div class="col-sm">
                 <MDBCol >
@@ -45,14 +46,19 @@ function Search() {
                 </select>
               </div>
               <div class='col-sm'>
-              <DateRangePicker id='calendar' onChange={onChange} value={value}/>
+                <DateRangePicker id='calendar' onChange={onChange} value={value} />
               </div>
             </div>
-          </div>
+            <div class='row mt-3'>
+                <Payroll/>
             </div>
+            
+          </div>
         </div>
+      </div>
         <div class='row mt-3'>
-        <div class='card' id='emp-row-3'>
+        
+        {/* <div class='card' id='emp-row-3'>
               <table id='customers'>
                 <tr>
                   <th>Employee ID</th>
@@ -73,7 +79,7 @@ function Search() {
                     </tr>
                 })}
               </table>
-            </div>
+            </div> */}
         </div>
     </div>
   )

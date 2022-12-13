@@ -21,12 +21,13 @@
     padding-right: 0%;
 }
 #emp-row-2{
-  width: 950px;
+  width: 1150px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding-top: 9px;
-    height: 530px;
-    margin-left: 35px;
+    gap: 10px;
+    height: 630px;
+    margin-left: 48px;
 }
 #emp-row-3{
   width: 1000px;
@@ -35,7 +36,7 @@
   height: 500px;
 }
 #emp-row-1{
-    width: 950px;
+    width: 1150px;
 }
 
 #customers {
